@@ -6,7 +6,7 @@ def create_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="802004",
+        password="Password",
         database="airlinedbms"
     )
 
