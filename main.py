@@ -10,7 +10,7 @@ def insert_user_details(username, password, name, email, phno, role,is_admin):
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="802004",
+        password="Password",
         database="airlinedbms"
     ) 
 
@@ -30,7 +30,7 @@ def authenticate(username, password):
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="802004",
+        password="Password",
         database="AIRLINEDBMS"
     )
 
@@ -51,7 +51,7 @@ def login_register():
     connection_sidebar = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="802004",
+        password="Password",
         database="AIRLINEDBMS"
     )
 
